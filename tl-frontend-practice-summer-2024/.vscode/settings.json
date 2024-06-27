@@ -1,0 +1,12 @@
+{
+  "editor.tabCompletion": "on",
+  "editor.snippetSuggestions": "top",
+  "editor.rulers": [120],
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit"
+  },
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "cSpell.words": ["nextui"],
+  "eslint.codeActionsOnSave.rules": ["perfectionist/*", "*"]
+}
