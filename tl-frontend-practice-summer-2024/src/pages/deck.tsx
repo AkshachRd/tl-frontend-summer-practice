@@ -131,7 +131,7 @@ export default function DeckPage() {
           <fieldset className="flex gap-4">
             <Button
               onPress={() => {
-                navigate(`/train/${deckId}`);
+                navigate(`/study/${deckId}`);
               }}
             >
               Train

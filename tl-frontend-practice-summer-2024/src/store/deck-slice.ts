@@ -1,7 +1,7 @@
 import { StateCreator } from "zustand";
 import { nanoid } from "nanoid";
 
-import { CardSlice } from "./cardSlice";
+import { CardSlice } from "./card-slice";
 
 type Deck = {
   id: string;

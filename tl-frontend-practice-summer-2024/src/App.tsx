@@ -1,10 +1,11 @@
 import { Route, Routes } from "react-router-dom";
 
+import StudyDeckPage from "@/pages/study-deck";
 import IndexPage from "@/pages/index";
 import DeckPage from "@/pages/deck";
 import PricingPage from "@/pages/pricing";
 import DecksPage from "@/pages/decks";
-import TrainPage from "@/pages/train";
+import StudyPage from "@/pages/study";
 
 function App() {
   return (
@@ -12,7 +13,9 @@ function App() {
       <Route element={<IndexPage />} path="/" />
       <Route element={<PricingPage />} path="/pricing" />
       <Route element={<DecksPage />} path="/decks" />
-      <Route element={<TrainPage />} path="/train/:deckId" />
+      <Route element={<StudyDeckPage />} path="/study/:deckId/:studyType" />
+      <Route element={<StudyPage />} path="/study/:deckId" />
+      <Route element={<StudyPage />} path="/study" />
       <Route element={<DeckPage />} path="/decks/:deckId" />
     </Routes>
   );
